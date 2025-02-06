@@ -25,7 +25,7 @@ public class Juego {
         System.out.println("Presiona 'S' para revelar tu tercera carta y continuar.");
         String respuesta = sc.nextLine();
 
-        if (respuesta.equalsIgnoreCase("S")) {
+        if (respuesta.equalsIgnoreCase("A")) {
             totalCartasJ += CartaOcultaJ;
             totalIAcartas += CartaOcultaIA;
             System.out.println("Tu tercera carta es: " + CartaOcultaJ);
