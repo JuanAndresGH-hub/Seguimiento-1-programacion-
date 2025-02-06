@@ -22,7 +22,7 @@ public class Juego {
         System.out.println("Tus cartas: " + cartasJ1 + " y " + cartasJ2);
         System.out.println("Puntuacion total: " + totalCartasJ);
 
-        System.out.println("Presiona 'S' para revelar tu tercera carta y continuar.");
+        System.out.println("Presiona 'A' para revelar tu tercera carta y continuar.");
         String respuesta = sc.nextLine();
 
         if (respuesta.equalsIgnoreCase("A")) {
